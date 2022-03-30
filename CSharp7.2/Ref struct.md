@@ -1,4 +1,4 @@
-1. Ref structs were introduced mainly for the benefit of the **Span<T>** and **ReadOnlySpan<T>** structs. 
+1. Ref structs were introduced mainly for the benefit of the **Span\<T>** and **ReadOnlySpan\<T>** structs. 
 2. Ensure structs can only ever reside on the **stack**.
 3. Attempting to use a ref struct in such a way that it could reside on the heap generates a compile-time error.
     - Class field
@@ -6,7 +6,8 @@
     - Boxing
     - Async function
     - ...
- 4. Metadata Representation: Ref-like structs will be marked with **System.Runtime.CompilerServices.IsByRefLikeAttribute** attribute.
+ 4. Metadata Representation  
+    Ref-like structs will be marked with **System.Runtime.CompilerServices.IsByRefLikeAttribute** attribute.
      ```
      [IsByRefLike]
      ref struct MyStruct 
