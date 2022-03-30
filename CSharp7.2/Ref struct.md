@@ -14,7 +14,19 @@
 
      } 
      ```
- 5. User Sceanrios:
+ 5. Disposable ref struct in C# 8.0  
+    In C# 7.2, ref structs are not allowed to implement IDisposable. 
+    But in C# 8.0 we can make them disposable by simply defining the Dispose method.
+    ```
+     ref struct MyStruct 
+     {
+           public void Dispose()  
+           {  
+
+           }  
+     } 
+    ```
+ 6. User Sceanrios:
     1. Optimize code and reduce load on GC.
     2. Encapsulates other ref structs
         ```
@@ -24,7 +36,7 @@
             Span<double> doubleSpan;
         }
         ```
- 6. Commonly used ref structs in .NET platform
+ 7. Commonly used ref structs in .NET platform
     - [Span<T>](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/Span.cs)
     - [ReadOnlySpan<T>](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/ReadOnlySpan.cs)
     - [Utf8JsonReader](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Text.Json/src/System/Text/Json/Reader/Utf8JsonReader.cs)
