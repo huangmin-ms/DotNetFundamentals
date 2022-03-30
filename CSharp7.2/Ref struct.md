@@ -24,8 +24,10 @@
             Span<double> doubleSpan;
         }
         ```
-    
- 
+ 6. Commonly used ref structs in .NET platform
+    - [Span<T>](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/Span.cs)
+    - [ReadOnlySpan<T>](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/ReadOnlySpan.cs)
+    - [Utf8JsonReader](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Text.Json/src/System/Text/Json/Reader/Utf8JsonReader.cs)
     
   References:
   1. [C# 8.0 in a Nutshell](https://learning.oreilly.com/library/view/c-8-0-in/9781492051121/ch03.html#ref_structs)
