@@ -26,6 +26,7 @@
            }  
      } 
     ```
+    Example:[ValueUtf8Converter](https://github.com/dotnet/corefx/blob/a10890f4ffe0fadf090c922578ba0e606ebdd16c/src/Common/src/System/Text/ValueUtf8Converter.cs)
  6. User Sceanrios:
     1. Optimize code and reduce load on GC.
     2. Encapsulates other ref structs
