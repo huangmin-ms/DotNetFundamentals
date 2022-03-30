@@ -6,9 +6,9 @@
     - Boxing
     - Async function
     - ...
- 4. Metadata Representation: Ref-like structs will be marked with **System.Runtime.CompilerServices.IsRefLikeAttribute** attribute.
+ 4. Metadata Representation: Ref-like structs will be marked with **System.Runtime.CompilerServices.IsByRefLikeAttribute** attribute.
      ```
-     [IsRefLike]
+     [IsByRefLike]
      ref struct MyStruct 
      {
 
