@@ -46,5 +46,5 @@
   References:
   1. [C# 8.0 in a Nutshell](https://learning.oreilly.com/library/view/c-8-0-in/9781492051121/ch03.html#ref_structs)
   2. [Ref structs in C# 7.2](https://kalapos.net/Blog/ShowPost/DotNetConceptOfTheWeek16-RefStruct)
-  3. [Disposable refstructs in c# 8.0](https://tooslowexception.com/disposable-ref-structs-in-c-8-0/)
+  3. [Disposable ref structs in c# 8.0](https://tooslowexception.com/disposable-ref-structs-in-c-8-0/)
     
